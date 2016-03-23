@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView2" type="id">40sp</item>
+    <item name="button2" type="id">40</item>
+    <item name="radioGroup" type="id" />
+    <item name="radioButton2" type="id" />
+    <item name="radioButton3" type="id" />
+</resources>
