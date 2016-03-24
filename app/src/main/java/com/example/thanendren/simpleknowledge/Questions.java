@@ -22,9 +22,9 @@ public class Questions extends AppCompatActivity {
 
 
     // string variables for questions answers and options
-    public static String questions[]={"Which of these stations will not be on Crossrail?","Geomatics is the Study of...","Third Question?","Fourth Question","Fifth Question"};
-    String ans[]={"Moorgate","Second Answer","Third Answer","Fourth Answer","Fifth Answer"};
-    String opt[]={"Ealing Broadway","Bond Street","Moorgate","2w","2w","Second Answer","3w","Third Answer","3w","4w","4w","Fourth Answer","5w","5w","Fifth Answer"};
+    public static String questions[]={"Which of these stations will not be on Crossrail?","Geomatics is the study of...","Which of these places is not along the River Thames?","Where will the next Disneyland be built?","What will an overdose on Paracetamol cause?"};
+    String ans[]={"Moorgate","Processing geographic information","Lewisham","Shanghai","Liver failure"};
+    String opt[]={"Ealing Broadway","Bond Street","Moorgate","Processing geographic information","The properties of rocks","The making of maps","Twickenham","Lewisham","Rainham","Singapore","Seoul","Shanghai","Liver failure","Kidney failure","Extreme nausea"};
 
     //shows increment for questions and ans in array
     int position=0;
