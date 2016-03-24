@@ -14,15 +14,19 @@ import android.widget.TextView;
 
 public class Questions extends AppCompatActivity {
 
+    // Declaring
     TextView textView2;
     RadioGroup radioGroup;
     Button button2;
     RadioButton RadioButton, RadioButton2, RadioButton3;
 
+
+    // string variable for questions answers and options
     public static String questions[]={"First Question?","Second Question?", "Third Question?","Fourth Question"};
     String ans[]={"First Answer","Second Answer","Third Answer","Fourth Answer"};
     String opt[]={"First Answer","1w","1w","2w","2w","Second Answer","3w","Third Answer","3w","4w","4w","Fourth Answer"};
 
+    //shows increment for questions and ans in array
     int position=0;
     public static int correct;
 
@@ -32,7 +36,7 @@ public class Questions extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_questions);
-
+        //register controls
         textView2 = (TextView)findViewById(R.id.textView2);
         button2 = (Button) findViewById(R.id.button2);
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
