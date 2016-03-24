@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //changing activity I'm assuming test 4
+                //changing activity I'm assuming
                 startActivity(new Intent(MainActivity.this, Questions.class));
             }
         });
