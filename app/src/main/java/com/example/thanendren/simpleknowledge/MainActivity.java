@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //chaninging activity im assuming
+                //changing activity im assuming
                 startActivity(new Intent(MainActivity.this, Questions.class));
             }
         });
